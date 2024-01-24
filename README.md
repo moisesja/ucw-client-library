@@ -1,1 +1,1 @@
-# WidgetClientLibrary
+# Widget Client Library
