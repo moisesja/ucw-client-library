@@ -1,0 +1,31 @@
+{
+  "name": "widget-client-library",
+  "version": "1.0.0",
+  "description": "Universal Connect Widget client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "Univeral",
+    "Connect",
+    "Widget",
+    "Client"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.6.6",
+    "crypto-js": "^4.2.0",
+    "parse-address": "^1.1.2",
+    "parse-full-name": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^20.11.6",
+    "@types/parse-full-name": "^1.2.5",
+    "typescript": "^5.3.3"
+  }
+}
