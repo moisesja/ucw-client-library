@@ -2,11 +2,15 @@
   "name": "widget-client-library",
   "version": "1.0.0",
   "description": "Universal Connect Widget client",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "build": "tsup"
   },
   "keywords": [
     "Univeral",
@@ -26,6 +30,7 @@
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^20.11.6",
     "@types/parse-full-name": "^1.2.5",
+    "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   }
 }
